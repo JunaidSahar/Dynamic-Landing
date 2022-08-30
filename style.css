@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oranienbaum&family=Tangerine:wght@700&family=Urbanist:wght@300;400;500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(72,149,239,0.3)), url(/images/bgSixth.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 80%;
+  height: 70vh;
+  margin: 0px auto;
+}
+
+.content h1{
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+time{
+  font-size: 2rem;
+  color:#fff;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+.content p{
+  color: #fff ;
+  font-size: 2.5rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#line{
+  font-size: 1.2rem;
+  margin-top: 18px;
+  width: 50%;
+  color: #fff;
+}
+
+.navbarContainer{
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  padding: 3rem 0;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navbarContainer nav{
+  display: flex;
+}
+
+.brand a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-family: 'Tangerine', cursive;
+}
+.brand a span{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0px 10px;
+}
+
+.navbarContainer ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 4rem; */
+  column-gap:3em ;
+}
+.navbarContainer ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #fff;
+}
+
+.btn button{
+  padding: 12px 15px;
+  font-size: 1rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background: transparent;
+  border: 1.5px solid #fff ;
+  color: #fff;
+  border-radius: .5em;
+  cursor: pointer;
+}
